@@ -1,0 +1,33 @@
+.flex-wrapper{
+ 
+background: #aaa;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.number-container{
+flex-grow: 1;
+  width: 33%;
+  height: 100px;
+  font-size:3rem;
+text-align:center;
+  margin:auto;
+color:#FFFFFF;
+border:1px solid #EFEFEF;
+@media only screen and (max-width: 600px) {
+  body {
+    width:100%;
+  }
+}
+ }
+.one-cont{
+background-color:#6F98A8;
+}
+.two-cont{ background-colr:#72C3DC;}
+.three-cont{background-color:#333333;}
+.four-cont{background-colr:#72C3DC;}
+.five-cont{background-color:#333333;}
+.six-cont{background-colr:#BFBFBF;}
+.seven-cont{background-colr:#BFBFBF;}
+.eight-cont{background-color:#6F98A8;}
+.nine-cont{background-color:#333333;}
